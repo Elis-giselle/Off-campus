@@ -1,0 +1,66 @@
+body { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(249, 188, 239);
+    margin: 25px;
+     
+     }  
+
+    header {
+
+    background-color: rgb(242, 163, 210);
+    color: rgb(3, 8, 18);
+    padding: 15px;
+    text-align: center;
+    background-image: url();
+    }
+
+    nav a {
+  color: rgb(242, 227, 208);
+  margin: 0 30px;
+  text-decoration: none;
+  font-size: 20px;
+
+    }
+
+    nav a:hover {
+   text-decoration: underline;
+   color: rgb(173, 10, 37);
+   }
+
+   .fundo {
+
+   display: flex;
+   gap: 10px;
+   width: 100%;
+   height: 100%;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 20px;
+    }
+   .card { 
+  width: 250px;
+  height: 350px; 
+  align-items: center;
+  background-color: rgb(246, 154, 222);
+  border-radius: 15px;
+  padding: 10px;
+
+   }
+
+   .card img {
+   width: 100%;
+   height: 80%;
+   object-fit: cover;
+   border-radius: 15px;
+   }
+ .card:hover {
+
+    transform: translateY(-10px) scale(1.02) ;
+    border-color: rgb(243, 148, 198);
+    box-shadow: 0 15px 20px rgb(241, 173, 230);
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXZxZmlkM2hlazJ1aXZoaGhkaTdnZjBkZno5dW02bHU3bHBzdGFpbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/REQjNzjlfR4mVE8WSR/giphy.gif);
+ }
+  .Subtitulo {
+    text-align: center;
+    background-color:rgb(252, 195, 222);
+  }
